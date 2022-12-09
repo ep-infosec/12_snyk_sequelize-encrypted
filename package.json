@@ -1,0 +1,31 @@
+{
+  "name": "@snyk/sequelize-encrypted",
+  "description": "encrypted sequelize fields",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '*.j?' 'test/*.j?'",
+    "lint": "prettier   --check '*.j?' 'test/*.j?'",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snyk/sequelize-encrypted.git"
+  },
+  "keywords": [
+    "sequelize",
+    "encrypted"
+  ],
+  "author": "snyk.io",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "pg": "^8.5.1",
+    "prettier": "~2.7.1",
+    "sequelize": "^6.19"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
